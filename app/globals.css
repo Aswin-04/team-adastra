@@ -18,6 +18,10 @@ body {
 }
 
 @theme {
+
+  --text-h1: clamp(2rem, 5vw + 1rem, 4rem);
+  --text-p: clamp(1rem, 2vw + 0.5rem, 1.5rem);
+
   --color-brand: #e4791c;
   --color-brand-50: #fef7ec;
   --color-brand-100: #fae9cb;
@@ -36,6 +40,7 @@ body {
   --color-background-v2: #1a1a1a;
 
   --breakpoint-wide: 1440px;
+  --breakpoint-xs: 425px;
 }
 
 @layer utilities {
