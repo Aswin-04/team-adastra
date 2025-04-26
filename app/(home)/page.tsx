@@ -13,7 +13,7 @@ export default function Home() {
 
             <p className="mt-10 text-base lg:text-lg max-lg:mx-auto max-w-xl">Representing India on the global stage, we design and build cutting-edge rovers to push the boundaries of space robotics. Join us as we reach for the stars!</p>
 
-            <div className="flex  mt-10 ">
+            <div className="flex  max-lg:justify-center mt-10 ">
               <button className="group flex justify-center items-center px-6 py-2 rounded-full font-semibold bg-gradient-to-b from-brand-500 to-brand-600 text-white focus:ring-2 focus:ring-brand-400 hover:shadow-xl transition duration-200 cursor-pointer">
                 Discover our mission &nbsp;<span className="group-hover:translate-x-1 transition duration-200 ease-in-out"><FaArrowRight></FaArrowRight></span>
               </button>
