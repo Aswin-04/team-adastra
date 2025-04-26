@@ -17,9 +17,9 @@ const ImageCarousel = () => {
   }, [])
   
   return (
-    <div className='relative w-full min-w-fit max-w-[480px] h-[200px] xs:h-[300px]'>
+    <div className='z-0 relative w-full min-w-fit max-w-[480px] h-[200px] xs:h-[300px]'>
       <div className='w-full h-full'>
-        <Image src={roverImgs[`${currentIndex}`].src} alt='rover-image' width={1080} height={720} priority  className='border-4 border-brand-600 rounded-2xl w-full h-full object-center object-cover'></Image>
+        <Image src={roverImgs[`${currentIndex}`].src} alt='rover-image' width={1080} height={720} className='border-4 ring-2 ring-brand border-brand rounded-2xl w-full h-full object-center object-cover'></Image>
       </div>
 
       <div className='text-xl flex mt-4 justify-center items-center'>

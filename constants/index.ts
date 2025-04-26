@@ -18,3 +18,27 @@ export const roverImgs = [
     src: "/rover-imgs/rover-img6.jpeg"
   },
 ]
+
+export const navLinks = [
+  {
+    to: "/",
+    label: "Home"
+  },
+  {
+    to: "/our-team",
+    label: "Our Team"
+  },
+  {
+    to: "/about-us",
+    label: "About us"
+  },
+  {
+    to: "/contact",
+    label: "Contact"
+  },
+  {
+    to: "/subsystems",
+    label: "Subsystems"
+  },
+
+]
