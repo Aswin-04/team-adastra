@@ -63,4 +63,18 @@ body {
   .padding-b {
     @apply pb-12 sm:pb-24
   }
+
+  .section-header {
+    font-size:  clamp(1.5rem, 4vw + 1rem, 3rem);
+    @apply font-semibold text-center bg-gradient-to-tr from-orange-600 via-orange-400 to-orange-600 bg-clip-text text-transparent
+  }
+
+  .title {
+    font-size:  clamp(.8rem, 2vw + 1rem, 1.5rem);
+    @apply font-medium
+  }
+
+  .box-shadow {
+    box-shadow: 1px 1px 10px orange;
+  }
 }
