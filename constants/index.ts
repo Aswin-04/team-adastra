@@ -60,3 +60,19 @@ export const achievements = [
     description: "Ranked among the top 10 teams in the International Rover Challenge 2024 (IRC 2024)."
   }
 ];
+
+
+export const aboutUs = {
+  mission: {
+    title: "Our Mission",
+    content: "The mission of the student rover team iS to design, build, and operate rover for exploring and conducting scientific experiments on other planets, while inspiring and educating future generations of scientists, engineers, and space enthusiasts. The project advances space exploration by pushing technological boundaries and fostering hands on learning problem-solving, and collaboration. It also promotes STEM education, encouraging curiosity and preparing future innovators for the challenges of space technology."
+  }, 
+}
+
+export const sponsorsLogo = [
+  {img: '/sponsors-logos/sairam-logo.png'},
+  {img: '/sponsors-logos/altium-logo.png'},
+  {img: '/sponsors-logos/solidworks-logo.png'},
+  {img: '/sponsors-logos/vecmocon-logo.png'},
+  {img: '/sponsors-logos/incubator-logo.jpeg'}
+]

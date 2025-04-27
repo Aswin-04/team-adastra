@@ -43,6 +43,12 @@ body {
   --breakpoint-xs: 425px;
 }
 
+@keyframes scrollLeft {
+  to {
+    left: -300px;
+  }
+}
+
 @layer utilities {
   .padding {
     @apply px-8 sm:px-16 py-12 sm:py-24;
@@ -76,5 +82,22 @@ body {
 
   .box-shadow {
     box-shadow: 1px 1px 10px orange;
+  }
+
+  .bg-card {
+    @apply  bg-background-v1 backdrop-blur-3xl border-zinc-800  rounded-xl;
+  }
+
+  .sponsor-wrapper {
+    @apply relative h-[200px] w-full  max-w-[1440px]  mx-auto overflow-hidden;
+  }
+
+  .sponsor-item {
+    @apply absolute flex justify-center items-center bg-white w-[300px] h-[200px] rounded-2xl;
+    left: max(calc(300px * 5), 100%);
+    animation-name: scrollLeft;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
   }
 }

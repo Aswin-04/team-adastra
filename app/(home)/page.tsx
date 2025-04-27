@@ -2,6 +2,8 @@ import ImageCarousel from "@/components/ImageCarousel";
 import TeamImgSection from "@/app/(home)/TeamImgSection";
 import { FaArrowRight } from "react-icons/fa6";
 import AchievementsSection from "./AchievementsSection";
+import OurMissionSection from "./OurMissionSection";
+import SponsorsSection from "./SponsorsSection";
 
 export default function Home() {
   return (
@@ -32,6 +34,14 @@ export default function Home() {
 
       <div className="padding">
         <AchievementsSection></AchievementsSection>
+      </div>
+
+      <div className="padding">
+        <OurMissionSection></OurMissionSection>
+      </div>
+
+      <div className="padding">
+        <SponsorsSection></SponsorsSection>
       </div>
     </main>
   );
